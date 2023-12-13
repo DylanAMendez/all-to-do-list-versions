@@ -7,3 +7,14 @@ body
   background-color: #1c1c1c;
   color: aliceblue;
 }
+
+.panel-terminado
+{
+  text-decoration: line-through;
+  background-color: rgba(17, 204, 17, 0.363);
+}
+
+.panel-noTerminado
+{
+  
+}

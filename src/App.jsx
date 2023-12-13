@@ -1,6 +1,7 @@
 
 import './App.css'
-import TodoList from './components/TodoList-v1'
+// import TodoListV1 from './components/TodoListV1'
+import TodoListV2 from './components/TodoListV2'
 
 function App() {
   
@@ -10,7 +11,9 @@ function App() {
       
       <h1 className='mb-5'>To do List </h1>
 
-      <TodoList />
+      {/* <TodoListV1 /> */}
+
+      <TodoListV2 />
 
     </>
   )
