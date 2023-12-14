@@ -1,3 +1,5 @@
+
+
 import { useState } from "react";
 
 const TodoListV2 = () => {
@@ -10,6 +12,8 @@ const TodoListV2 = () => {
 
     setTasks([...tasks, newTask]);
     setIdTask(idTask + 1);
+
+
 
     resetForm();
   };
